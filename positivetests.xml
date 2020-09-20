@@ -1,0 +1,19 @@
+<suite name="PositiveTests" verbose="1">
+
+    <test name="PositiveTests">
+        <classes>
+            <class name="tests.SearchTests"/>
+            <methods>
+                <include name="checkThatUrlContainsSearchWord"/>
+                <include name="searchResultContainsSearchWord"/>
+                <include name="checkItemCardHasPriceBadgeAndPriceAmount"/>
+            </methods>
+            <class name="tests.AddToCartTests"/>
+            <methods>
+                <include name="checkAddItemToCart"/>
+                <include name="checkRemoveItemFromCart"/>
+            </methods>
+        </classes>
+    </test>
+
+</suite>

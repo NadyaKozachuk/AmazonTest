@@ -1,0 +1,18 @@
+<suite name="NegativeTests" verbose="1">
+
+    <test name="NegativeTests">
+        <classes>
+            <class name="tests.SearchTests"/>
+            <methods>
+                <include name="checkAlertMessageWhenEnterIncorrectWordInSearchField"/>
+            </methods>
+            <class name="tests.AddToCartTests"/>
+            <methods>
+                <include name="checkAlertMessageWhenAddToCartGiftCardWithEmptyRequiredFields"/>
+                <include name="checkAlertMessageWhenAddToCartMoreItemsThanInStock"/>
+            </methods>
+            <class name="tests.DeliverToTests"/>
+        </classes>
+    </test>
+
+</suite>
